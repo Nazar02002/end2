@@ -71,3 +71,6 @@ color:white;
 .phones:hover {
     border:10px double skyblue;
 }
+h2 {
+    text-align:center;
+}
