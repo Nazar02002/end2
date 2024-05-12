@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    text-align:center;
+    position:relative;
+    top:50px;
+    
+}
+header {
+    background-color: orange;
+    height:120px;
+}
+.iphons {
+    display:flex;
+    justify-content:space-around;
+}
+.buy {
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+
+.buy:hover {
+    background-color:yellow;
+    border-radius:10px;
+    font-size:25px;
+}
+.face {
+    position:absolute;
+    right:-80px;
+    top:110px;
+    background-color: skyblue;
+    border-radius:6px;
+    height:100px;
+    padding-left:20px;
+    transition:0.3s;
+}
+.face a {
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+.face:hover {
+    right:0;
+}
+footer {
+    background-color:orange;
+    
+}
+.de {
+    text-align: center;
+    
+}
+.adress {
+    text-align: center;
+    font-size:20px;
+}
+footer:hover{
+background-color:gold;
+color:white;
+}
+.worker {
+    display: flex;
+    justify-content: space-between;
+}
+header:hover {
+    background-color:gold;
+color:white;
+}
+.phones:hover {
+    border:10px double skyblue;
+}
