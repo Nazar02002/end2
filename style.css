@@ -26,22 +26,18 @@ header {
     border-radius:10px;
     font-size:25px;
 }
-.face {
+nav a {
     position:absolute;
     right:-80px;
-    top:110px;
-    background-color: skyblue;
-    border-radius:6px;
-    height:100px;
-    padding-left:20px;
+    border-radius:5px 0 0 5px;
+    padding:15px;
     transition:0.3s;
-}
-.face a {
-    text-decoration:none;
     color:white;
     font-size:20px;
+    text-decoration:none;
+    width:100px;
 }
-.face:hover {
+nav a:hover {
     right:0;
 }
 footer {
@@ -73,4 +69,20 @@ color:white;
 }
 h2 {
     text-align:center;
+}
+.iphons {
+   top:20px;
+    background-color:skyblue;
+}
+.imacs {
+    background-color:skyblue;
+    top:80px;
+}
+.ipads {
+    background-color:skyblue;
+    top:140px;
+}
+.macbooks {
+    background-color:skyblue;
+    top:200px;
 }
